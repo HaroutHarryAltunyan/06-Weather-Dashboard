@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Project JavaScript</title>
+    <link rel="stylesheet" href="./06-Weather-Dashboard/assets /css/styleex.css">
+</head>
+<body>
+    <h1>Weather Dashboard</h1>
+
+    <div class="container">
+        <!-- Weather Input Section -->
+        <div class="weather-input">
+            <h3>Enter a City Name</h3>
+            <input class="city-input" type="text" placeholder="E.g., New York, London, Tokyo">
+            <button class="search-btn">Search</button>
+            <div class="separator"></div>
+            <button class="location-btn">Use Current Location</button>
+        </div>
+
+        <!-- Weather Data Section -->
+        <div class="weather-data">
+            <!-- Current Weather -->
+            <div class="current-weather">
+                <div class="details">
+                    <h2> _____ ( ____ )</h2>
+                    <h4>Temperature: ____ °C</h4>
+                    <h4>Wind: ____ M/S</h4>
+                    <h4>Humidity: ____ %</h4>
+                </div>
+            </div>
+
+            <!-- 5-Day Forecast -->
+            <div class="days-forecast">
+                <h2>5-Day Forecast</h2>
+                <ul class="weather-cards">
+                    <li class="card"> 
+                        <h3>(_____)</h3>
+                        <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="weather-icon">
+                        <h4>Temp: ____ °C</h4>
+                        <h4>Wind: ____ M/S</h4>
+                        <h4>Humidity: ____ %</h4>
+                    </li>
+                    <li class="card"> 
+                        <h3>(_____)</h3>
+                        <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="weather-icon">
+                        <h4>Temp: ____ °C</h4>
+                        <h4>Wind: ____ M/S</h4>
+                        <h4>Humidity: ____ %</h4>
+                    </li>
+                    <li class="card"> 
+                        <h3>(_____)</h3>
+                        <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="weather-icon">
+                        <h4>Temp: ____ °C</h4>
+                        <h4>Wind: ____ M/S</h4>
+                        <h4>Humidity: ____ %</h4>
+                    </li>
+                    <li class="card"> 
+                        <h3>(_____)</h3>
+                        <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="weather-icon">
+                        <h4>Temp: ____ °C</h4>
+                        <h4>Wind: ____ M/S</h4>
+                        <h4>Humidity: ____ %</h4>
+                    </li>
+                    <li class="card"> 
+                        <h3>(_____)</h3>
+                        <img src="https://openweathermap.org/img/wn/10d@4x.png" alt="weather-icon">
+                        <h4>Temp: ____ °C</h4>
+                        <h4>Wind: ____ M/S</h4>
+                        <h4>Humidity: ____ %</h4>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Dark Mode Toggle Button -->
+    <button class="dark-mode-toggle">Dark/Light Mode</button>
+
+    <script src="./06-Weather-Dashboard/assets /js/scriptex.js"></script>
+</body>
+</html>
